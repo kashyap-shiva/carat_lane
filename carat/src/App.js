@@ -4,7 +4,6 @@ import RoutesLayout from './Routes/RoutesLayout';
 
 function App() {
   return (
-    // <Layout />
     <RoutesLayout />
   );
 }
