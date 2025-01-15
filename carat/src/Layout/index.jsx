@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from './Header/Header'
 import {Outlet} from 'react-router-dom'
+import { UpperHeader } from './Header/UpperHeader'
 
 const Layout = () => {
   return (
     <div>
         <div>
-            <Header />
+             <UpperHeader />
         </div>
         <div>
             <Outlet />
